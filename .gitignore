@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+.next/
+.turbo/
+
+# Environment and secrets (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Vite / tooling caches
+.vite/
+.cache/
+.pnpm-store/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE (local only)
+.cursor/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (scraper)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Certificates and keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Docker local data
+postgres_data/

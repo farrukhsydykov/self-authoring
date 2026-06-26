@@ -1,0 +1,11 @@
+{
+  "name": "self-authoring",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --filter api --filter web dev",
+    "build": "pnpm --filter shared build && pnpm --filter api build && pnpm --filter web build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

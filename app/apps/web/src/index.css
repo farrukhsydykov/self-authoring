@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1a2f4a;
+  --color-primary-light: #2d4a6f;
+  --color-primary-dark: #0f1c2e;
+  --color-accent: #b8952e;
+  --color-accent-dark: #8a7022;
+  --color-surface: #f4efe6;
+  --color-surface-elevated: #fffdf9;
+  --color-border: #e2dbd0;
+  --color-muted: #6b6560;
+  --color-trait-o: #5b7c99;
+  --color-trait-c: #4a7c59;
+  --color-trait-e: #c17f3a;
+  --color-trait-a: #7c5b8a;
+  --color-trait-n: #4a6b8a;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}
+
+body {
+  @apply bg-surface text-slate-900 antialiased;
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Subtle paper grain atmosphere */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Staggered page entrance */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out both;
+}
+
+.animate-fade-up-delay-1 {
+  animation-delay: 0.08s;
+}
+
+.animate-fade-up-delay-2 {
+  animation-delay: 0.16s;
+}
+
+.animate-fade-up-delay-3 {
+  animation-delay: 0.24s;
+}
+
+/* Form inputs */
+.input-field {
+  @apply w-full rounded-xl border border-border bg-surface-elevated px-4 py-3 text-sm transition;
+  @apply placeholder:text-muted/60 focus:border-primary/40 focus:outline-none focus:ring-2 focus:ring-primary/10;
+}
+
+.textarea-field {
+  @apply w-full rounded-xl border border-border bg-surface-elevated p-3 text-sm leading-relaxed transition;
+  @apply placeholder:text-muted/60 focus:border-primary/40 focus:outline-none focus:ring-2 focus:ring-primary/10;
+}
+
+/* Nav active indicator */
+.nav-active {
+  @apply bg-white/10 text-white;
+}
+
+.nav-inactive {
+  @apply text-white/60 hover:bg-white/5 hover:text-white/90;
+}

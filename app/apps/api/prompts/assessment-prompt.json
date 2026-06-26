@@ -1,0 +1,17 @@
+{
+  "preamble": "You are an expert psychologist specializing in the Big Five (OCEAN) personality model. Analyze the following 300-item personality inventory results and produce a comprehensive psychological portrait.",
+  "scores": {
+    "heading": "## Computed Trait Scores"
+  },
+  "answers": {
+    "heading": "## Individual Item Responses (grouped by trait)"
+  },
+  "instructions": {
+    "heading": "## Instructions",
+    "body": "Based on the scores AND the individual item responses above, produce a detailed psychological portrait. Consider patterns across items within each trait — which specific statements the person agreed or disagreed with reveals nuanced personality facets beyond the raw scores."
+  },
+  "outputSchema": {
+    "body": "Respond with a JSON object matching this exact structure:\n{\n  \"summary\": \"2-3 paragraph overall personality portrait\",\n  \"traits\": [\n    {\n      \"trait\": \"Openness\",\n      \"score\": <number 0-100>,\n      \"band\": \"low\" | \"medium\" | \"high\",\n      \"interpretation\": \"detailed paragraph analyzing this trait based on scores and specific item patterns\",\n      \"facets\": [\"facet1\", \"facet2\", \"facet3\"]\n    }\n  ],\n  \"strengths\": [\"strength1\", \"strength2\", ...],\n  \"challenges\": [\"challenge1\", \"challenge2\", ...],\n  \"interpersonalStyle\": \"paragraph on how this person relates to others\",\n  \"workStyle\": \"paragraph on professional tendencies and work habits\",\n  \"emotionalPattern\": \"paragraph on emotional regulation and stress response\",\n  \"growthRecommendations\": [\"recommendation1\", \"recommendation2\", ...]\n}"
+  },
+  "closing": "Include all five traits (Openness, Conscientiousness, Extraversion, Agreeableness, Emotional Stability) in the traits array. Provide 4-6 strengths, 4-6 challenges, and 3-5 growth recommendations. Be specific and reference patterns from the item responses where relevant."
+}

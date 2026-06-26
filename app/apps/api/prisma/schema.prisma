@@ -1,0 +1,57 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String              @id @default(cuid())
+  email        String              @unique
+  passwordHash String
+  createdAt    DateTime            @default(now())
+  oceanResults OceanResult[]
+  documents    AuthoringDocument[]
+  profile      UserProfile?
+}
+
+model OceanResult {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  answers   Json
+  scores    Json
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+}
+
+enum AuthoringModule {
+  past
+  future
+  faults
+  virtues
+}
+
+model UserProfile {
+  id            String   @id @default(cuid())
+  userId        String   @unique
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  oceanResultId String
+  assessment    Json
+  updatedAt     DateTime @updatedAt
+}
+
+model AuthoringDocument {
+  id        String          @id @default(cuid())
+  userId    String
+  user      User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  module    AuthoringModule
+  data      Json
+  updatedAt DateTime        @updatedAt
+
+  @@unique([userId, module])
+  @@index([userId])
+}

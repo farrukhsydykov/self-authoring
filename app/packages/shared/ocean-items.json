@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "29436fa6-c152-4d13-b8a7-ed6e64f4a1b2",
+    "text": "See connections between things too easily",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "0113f402-b469-4d70-ba94-f5fe8f88851f",
+    "text": "Am so interested in creative activities that it is hard to concentrate on things that are practical",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "01923d79-ace2-4dd7-8424-4dd734a6f816",
+    "text": "Will work on a project beyond what is useful and necessary",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "019e375a-ff30-407a-ac8a-5d882e66e542",
+    "text": "Am polite to a fault",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "02915a7f-e87d-4fe5-aacc-0d68ee51256e",
+    "text": "Don't laugh much or have fun",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "0bb09f7e-d07d-4293-8f31-5bb9f108baee",
+    "text": "Let my fears stop me from doing things I want to do",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "11d5de06-a2ea-4ce6-80ee-31ae06ad19c8",
+    "text": "Tend to always put myself first",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "26b8b51f-ddd7-42ce-a53f-e6026c7169ec",
+    "text": "Have a hot temper",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "3a956bf5-7bab-46ca-b43f-3cf8afcb3bbe",
+    "text": "Do not attend movies or plays",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "4a3e6320-e518-46f8-b737-34648a78aff8",
+    "text": "Am sometimes willing to bend the truth to get out of an obligation",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "8fadf43c-9bfa-4e3e-89ce-c516db33cf5e",
+    "text": "Don't pay enough attention to costs and potential future dangers",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "99837a2d-4281-455b-9a72-3d70644f298d",
+    "text": "Am sometimes dominated by other people",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "a0afbefd-de2c-4910-80cf-15d417a9cd68",
+    "text": "May spend too much time pursuing fun and excitement",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "a4459bcc-2bf3-4b3a-b784-0158d35f06cd",
+    "text": "Might have done fewer stupid things if I felt shame more often",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "ab99802a-58f0-4109-b195-e90d9418582f",
+    "text": "Feel inadequate when introduced to new people",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "c6a6fb2a-c702-4e12-bae9-02544915421c",
+    "text": "Pursue too many activities at the same time",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "d71996ea-8faa-456f-ab56-ce1fea75fee9",
+    "text": "Keep in the background",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "df5bc3c3-80d4-45da-9102-8292ae040aef",
+    "text": "Am seldom interested in abstract, philosophical ideas",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "19323e17-1195-4392-b877-a402b3eb0688",
+    "text": "Am unlikely to initiate a new project",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "1d66684e-19a9-4800-a023-43570f04eed3",
+    "text": "Cannot stand to be late for an appointment",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "1e6ea787-0204-46ef-8a77-16f3af17195c",
+    "text": "Would probably help me if I could be more competitive",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "3198dd9d-5cde-4046-9bc4-0e2f4cc28c23",
+    "text": "Bottle up my feelings",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "4bd22a59-89e8-4ffc-a22f-1b474b3b9192",
+    "text": "Can be too theatrical or dramatic",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "532c4647-04f7-4dc3-9e81-12d77d0e4257",
+    "text": "Insult people",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "579d4ebf-895e-40e6-97f5-a31d13792e2a",
+    "text": "May attract too much attention to myself",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "6511dc2b-4627-4131-b318-290acb11ff6e",
+    "text": "Am quite critical of others",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "871ef4e0-81ec-4512-a933-5084d74a3350",
+    "text": "Will charm people to get my way",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "9f6fb277-9170-4e7b-af0a-840485e0a4f6",
+    "text": "Am not interested in other people's problems",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "a5fb49a2-32e7-4c59-acfd-f0a8634b48ac",
+    "text": "Find it difficult to spend time alone",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "a7dfdd1c-c81a-4f2b-9ab0-849a1da30398",
+    "text": "Don't like to tidy up",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "b95e642c-2ff8-49d4-951c-2376240c404f",
+    "text": "Find myself believing that people are basically good, even when there is evidence to the contrary",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "c9670237-f88d-4796-832d-02bffc282c50",
+    "text": "Get upset at myself when I misplace something",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "cf67179d-82e9-43ff-a9da-fdd0eb1797c3",
+    "text": "Can be contemptuous of other people and of myself",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "db604aa7-7b0a-463d-8f10-df72a66e021e",
+    "text": "Am interested in so many things that I don't know what to focus on",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "11f979d3-8172-414a-84b2-5db37d646fe1",
+    "text": "Infrequently help others",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "2a0a1dd6-9cb7-461d-8674-5a33e076fbd4",
+    "text": "Blow little things out of proportion",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "372c283b-8840-43d6-84a4-2ba8928d049f",
+    "text": "Feel hurt often, even by little things",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "3c8e8969-1199-4afb-acdd-c060477ece84",
+    "text": "Grumble and complain about things",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "44723c24-4d55-426a-bffe-2f7d5c260188",
+    "text": "Am too self-conscious for my own good",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "54689fc3-29a9-42b2-960d-0704dbd14dbc",
+    "text": "May be too dependent on the admiration or attention of others",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "664795af-287d-445e-8df7-9c9208c42a21",
+    "text": "Daydream too much",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "6bf9574c-2b44-48c5-bf22-1f286d141b6b",
+    "text": "Get obsessed with details and lose the big picture",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "8a299633-cadc-4cb5-8fa7-86ebed6ac4c6",
+    "text": "Do not really understand or value art",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "8abbbf5e-f521-47c6-95b7-2980db4d21cb",
+    "text": "Am often too optimistic",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "9c165dfb-2ff3-4a0d-9931-2a1d9d3ada14",
+    "text": "Have a difficult time starting conversations",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "9ff46120-d4b3-4fa6-99d5-b2c051018c7c",
+    "text": "Have had a hard time forming a clear identity",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "c84988e9-4f77-4997-b274-6e38f20b4754",
+    "text": "Could be more socially skilled",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "d01737bd-a3d1-4eb6-8a0d-cebcda9f10ff",
+    "text": "Often take counterproductive or unnecessary risks",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "e9e1f104-9083-4b61-af90-556a6d97b541",
+    "text": "Have a hard time making up my mind because I can always see all the sides of an argument",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "fd28688d-8c7b-4b19-bfb5-b09eef5b64bf",
+    "text": "Will not probe deeply into a subject",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "05102d29-879a-4c97-ab31-7ea49f4ac56c",
+    "text": "Always do things the same way once I have learned how to do them",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "1023f424-a2dc-4b51-9a62-72e830163730",
+    "text": "Am easy-going to a fault",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "180a9691-724f-4824-80cc-c16b49b34dd1",
+    "text": "Find myself making excuses for other's inappropriate behavior",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "24bbe5e6-e0c8-4a88-a8e9-c6732f3fd224",
+    "text": "Lose opportunities because I am too isolated",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "27fa0090-0603-4166-8be4-a31ed848e243",
+    "text": "Can be detached and cold when others are hurt and upset",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "344a2517-954c-49b6-b87d-54e4035bf197",
+    "text": "Avoid sophisticated fiction and stories",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "4be5a2b3-21f5-4597-bcfd-c8dac6332f59",
+    "text": "Get stressed out easily",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "4fe7fbac-8c4b-4c4e-8e3e-07e239a30013",
+    "text": "Find it difficult to get down to work",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "58a6a1b2-f528-4e8d-9abc-0281fa97fba7",
+    "text": "Have done crazy things just because I was curious about what might happen",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "5b1448f1-ba8a-4e7e-9263-d5e868f79476",
+    "text": "Have had experiences or thoughts that were strange enough to frighten me",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "6cf9691c-7762-4b72-b584-db568d7841a3",
+    "text": "Sometimes every thought I have immediately suggests an overwhelming number of ideas",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "87d5cf3a-858b-4fa3-a5d7-f7e0bcc5312b",
+    "text": "Feel drained by social interactions",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "9eaa3541-ce6b-4d47-b9e2-c20e36041138",
+    "text": "Do not seem to benefit from negative feedback",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "a40952ba-cd6f-442e-b664-4a243334caa8",
+    "text": "Don’t appear to learn as well from my mistakes as others do",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "ab5ce1aa-e5bb-4d51-a154-307511904ce4",
+    "text": "Jump around too much from topic to topic when I am talking to people",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "bdae2617-1427-461f-aa37-547771d8903f",
+    "text": "Have too little to say",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "1d66e568-c77c-442c-8cad-e71b7e66cb70",
+    "text": "Could be a better listener",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "1f078e50-8ba1-4472-a5c9-671af675f8b1",
+    "text": "Don't generally show gratitude",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "1fabd46b-d638-44a0-bfdb-b591f514a3ad",
+    "text": "Can be aggressive and domineering",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "218edf5b-4abd-49b3-ac08-2e438025807c",
+    "text": "Do not like to read challenging material",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "270e2be1-5464-4923-b9bc-63ff49239e59",
+    "text": "Will sacrifice my own feelings for the comfort of others",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "2beb3907-2ae1-42e3-a610-5dc88d70c31a",
+    "text": "Can be a little grandiose",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "49e0a2ce-f539-4ce4-b9b1-b6caef157308",
+    "text": "Often feel depressed and blue",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "7ff2f21b-f354-4463-80f2-3f3719f03f8f",
+    "text": "Don't know how to deal with mean people",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "8acddcda-2545-4579-98f6-cfe49feebda8",
+    "text": "Surf the web or watch TV or waste time in other ways even if I have a project due",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "9b1fcf61-0b65-46a7-a5f5-e5183cd8e685",
+    "text": "Always believe that failure is a consequence of insufficient personal effort",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "9b5d5b0d-c131-4ab9-9607-d9a20335f2f4",
+    "text": "Am too moody and emotionally unstable",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "cce54187-32f6-4c62-ae9f-6c7c31eb8829",
+    "text": "Am sometimes attracted by ideas that are radical but have not been thought through",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "dd7ae465-d8f6-47d4-9624-ae32f117a662",
+    "text": "Insist that everything be in perfect order",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "e0d01ce7-dc0c-4472-aba6-bc8d85799196",
+    "text": "Tend to think that creative people are strange",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "f2e9867f-5e53-4587-abb8-91d7c5bc2d2d",
+    "text": "Try too hard to be the center of attention",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "fb78889d-ccbf-428a-907d-46fd6b0ad9db",
+    "text": "Try to avoid complex people",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "1c193b2e-e31d-4dca-ac90-01bc2118f040",
+    "text": "Am unimaginative",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "411828ab-8bee-4a65-a913-2d2ba626c396",
+    "text": "Am good at a too-narrow range of things",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "43b9c004-8c42-42be-9574-8fffecd7d337",
+    "text": "Am without real ambition",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "5ccb5511-08e8-4bf4-bcce-5f0fbc75de1a",
+    "text": "Feel unmotivated to complete my work",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "5e3491c9-0e42-4f56-a521-0d3fd87adc24",
+    "text": "Can bottle up my feelings until I become resentful",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "770104ac-bc9e-4f65-93ab-e8720f8b7eb7",
+    "text": "May exaggerate the truth",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "800975a6-9aea-4e3d-a50d-1526b4430c58",
+    "text": "Seldom seek out new experiences",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "8f1cc3a5-0fb3-42d9-a52f-6f4ef9da1ca6",
+    "text": "Compare myself unfavorably to other people",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "93508d9f-1450-431d-8822-f1e7b91f1b92",
+    "text": "Am easily disturbed and upset",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "ad9e4a6c-e39f-4825-ac99-02ff3d5abde5",
+    "text": "Feel ashamed of my body",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "bc73e453-7665-4302-a10a-9bf3cd1eb310",
+    "text": "Am a very private person",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "c79fe9f0-6633-4f34-afe9-62e15f7db1d1",
+    "text": "Seriously dislike having my routine or schedule upset",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "cb752c49-c544-4273-9462-6a92ed6006c1",
+    "text": "Leave my belongings around",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "e64d277e-a352-43ab-9490-3988107c9a3a",
+    "text": "Find myself too upset after I have a conflict with someone",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "e8ebf3e1-55be-4cf0-b418-d399719f22a1",
+    "text": "Can do careless or inappropriate things without seeming to experience guilt",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "ea9f6873-63e7-4f22-9204-82fa2d625415",
+    "text": "Believe that I have to be flawless",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "0420739f-d7db-4a76-b8ec-f566b477e4a3",
+    "text": "Do not care for change",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "14d8e147-7deb-49b4-af49-f31e167e0c04",
+    "text": "May dominate the conversation excessively",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "18b59da0-e3a4-4cb5-8bc0-333abede104a",
+    "text": "Waste my time",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "19ac60b4-8925-462d-b893-cfe2dc4e07d9",
+    "text": "Feel that I am being unproductive if I relax",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "1c7be667-d2d5-4c24-ac19-76eee2dfd4f6",
+    "text": "Can become possessed by an idea",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "45a051a0-19d4-4991-bf09-218574cda60e",
+    "text": "Avoid conflict even when it is necessary",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "4fb704a1-1980-4b56-a403-235d9174666f",
+    "text": "Wait for others to lead the way",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "562bc149-12b1-4c50-b30e-81541f35247f",
+    "text": "Can be vengeful",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "6ec03207-8b6c-44d4-bb65-c443eaaa107e",
+    "text": "Have no stable daily routine for sleeping or eating",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "b40c3447-6f02-4c86-aac8-bbf43e764854",
+    "text": "Cannot negotiate for myself very well",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "d8ef002c-232f-45cb-9772-55403c057cf3",
+    "text": "Can spend too much money",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "dddd3c22-3777-40c2-a83e-ffacba56e399",
+    "text": "Have found myself in dangerous situations because I was not paying attention",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "e3c507a4-63c4-4852-b400-eb0188f3bd13",
+    "text": "Find it difficult to approach others",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "f5f8b71d-e88b-437e-b454-4edfd3ac02e2",
+    "text": "Am sometimes too calm about things",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "11925215-ef79-4be9-bf58-2dde42229a32",
+    "text": "Feel too fearful, afraid and anxious",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "16a69e3a-ea98-4235-ba16-78f81fe3d87c",
+    "text": "Have few clearly defined goals",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "1dff9967-84e8-4987-82da-5ca5c61e9b03",
+    "text": "Often feel uncomfortable around others",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "2175aebf-8256-4103-b9f3-db911c817d7a",
+    "text": "Feel sorry for people who may not deserve it",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "225feabe-cbec-4d76-b9d9-d65299b87cf3",
+    "text": "Have a hard time planning for the future because I am interested in everything",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "269610b2-e00c-4631-9689-6626d90c5960",
+    "text": "Could be better at cooperating",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "2b9fd4bc-ddc3-4748-a9fe-d4b4c8a6069e",
+    "text": "Sometimes see meaning in things that probably isn't there",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "42fa6195-b2f3-44f8-96f7-3e38813e2e1f",
+    "text": "Am too suspicious of other people's motives",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "467928e2-342e-4d4e-9cf0-703fdb40b2f9",
+    "text": "Talk about myself a lot",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "4eb27f15-22d9-40df-a413-353d29fae353",
+    "text": "Cannot tolerate having to finish a task imperfectly or quickly",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "603686e4-11fb-460a-95be-af68795dd8cb",
+    "text": "Frequently make excuses",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "7bb3cc18-9a7a-4088-af74-652f92e113ee",
+    "text": "Can be very judgemental",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "9a69252a-f8b2-447b-951c-14d92d4cbb01",
+    "text": "Things that should bother me don't seem to",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "ec66768f-c040-416f-ab95-05ae0b4cdb99",
+    "text": "Have a social circle that is too small",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "eccf827b-b046-4d12-8e78-ff2721a0b5f1",
+    "text": "Am frequently irritable or angry",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "033575c7-ec5c-4600-954d-e69f1b83044e",
+    "text": "Sometimes talk too loudly",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "24131006-4eaa-423b-bdda-92f3418fb5f6",
+    "text": "Sometimes act without thinking",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "38cd7c99-4ba6-42fc-8a91-9900b0fc31ac",
+    "text": "Don't worry about things that should bother me",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "501b68d2-9198-4e9e-af91-334748a68ecb",
+    "text": "Can be overly sentimental",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "602ce6d4-5ae6-4b6b-9a64-dc3204707b5b",
+    "text": "Dislike deviation from the rules, even when it is necessary",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "6fba0f28-520a-4f5c-9803-2d2643188da6",
+    "text": "Sometimes think if I was more worried about things I might do better in life",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "772272f8-e33e-4dd1-9704-e4484c7bec1d",
+    "text": "Am willing to manipulate others for personal gain",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "7989e618-8304-43b9-a512-61a4b8fb6f8c",
+    "text": "Am sometimes not afraid of things I should be afraid of",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "9a0da7c0-f25a-4cd9-a68f-259acf667752",
+    "text": "Criticism, even when warranted, does not seem to affect me",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "aa26225c-c9af-4d11-a5a9-97f5c13190dd",
+    "text": "Am too perfectionistic",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "b0bfaf7b-1eca-4fa0-8e30-19dbfe257cff",
+    "text": "Trust people too easily",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "c65dc954-774b-47c6-99da-83f8ee0e7141",
+    "text": "Am not very enthusiastic",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "de4ff5cc-d130-4d6b-aacb-3e15eab243c5",
+    "text": "Can be indifferent to the feelings of others",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "f528b92b-17bd-4347-b439-cd194ece0a7e",
+    "text": "Often procrastinate",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "775444cd-e6cd-4b94-8df6-c6bdc963103b",
+    "text": "Have to plan everything",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "4e8fff53-296e-4610-aeea-4f304dd9acb5",
+    "text": "Do things in a half-way manner",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "78f921ac-aa7c-4865-8042-7a339553f43c",
+    "text": "Am too quiet around strangers",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "87f1e5f2-d492-4d48-af25-dc116409ed54",
+    "text": "Do not involve myself in creative activities",
+    "trait": "O",
+    "pole": "fault"
+  },
+  {
+    "id": "eb8f3ec0-f288-427f-9403-ffe20ebee099",
+    "text": "Am loyal to a fault",
+    "trait": "A",
+    "pole": "fault"
+  },
+  {
+    "id": "2083e652-6ace-4b28-8195-a87b38882abc",
+    "text": "Have a hard time calming down after becoming upset",
+    "trait": "N",
+    "pole": "fault"
+  },
+  {
+    "id": "2611ddc9-6ac5-4ef8-ba8c-fc45a7f4b69a",
+    "text": "Do not let the quieter people have a chance to talk",
+    "trait": "E",
+    "pole": "fault"
+  },
+  {
+    "id": "890b16b2-6e6a-41f1-8502-1a5cc512054d",
+    "text": "Neglect my duties",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "cdf8a9c1-c8fe-4eef-866f-3c943c865181",
+    "text": "Make a mess of things",
+    "trait": "C",
+    "pole": "fault"
+  },
+  {
+    "id": "169a8590-92c9-4484-b913-eb2bd6ad94f4",
+    "text": "Am interested in people",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "177baf29-1253-46a3-b621-bd9125510fd2",
+    "text": "Make safety a top priority",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "5b9e69d2-0e10-40dc-a257-b4c3619c4f46",
+    "text": "Am not a martyr",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "761d29f5-6685-49cd-851e-8be236773c73",
+    "text": "Will confront people if necessary",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "7fc5459b-ba54-4e7d-929d-81a8c9b8db8d",
+    "text": "Do not believe in change for the sake of change",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "ced6c865-dac4-4142-963b-4cbc3b589e0b",
+    "text": "Do what I say I am going to do",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "09e59bff-2a6b-4d94-9f4c-ce7cb6fe8da4",
+    "text": "Get chores or tasks done right away",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "22872e1a-0f89-4b68-920b-fcd3d8dc8416",
+    "text": "My higher levels of anxiety have kept me safer than some people I know",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "24ce484f-6772-4893-9a36-e384b2fe2ed1",
+    "text": "Seldom do anything dangerous",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "2a3f26cc-2c3b-4a63-b781-c6ea250b82ed",
+    "text": "Make people feel at ease",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "2a916ace-5fd7-40a1-986f-43497b3f3832",
+    "text": "Am very careful with my sexual behavior",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "2d28b1ac-94cc-46a8-af3d-ded38184e11b",
+    "text": "Always arrive at appointments early or on time",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "422f5a2b-8a73-4f78-b38a-0ae65e9c70fb",
+    "text": "Believe that the tried and true way is the right way",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "4805b6fc-9863-4574-abb3-766da8e08c31",
+    "text": "Have excellent ideas",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "619b5cf3-42bd-45a2-9bf6-39e5768e51cb",
+    "text": "Am always learning new things",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "7a7f3dd6-35ea-4cf3-8cee-258d6174f5e4",
+    "text": "Seldom get disturbed or upset",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "8b46bd9a-1c8b-4726-8322-17c69da420fb",
+    "text": "Am enthusiastic about new opportunities",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "a3185a10-1b56-42ce-ad5a-f9b8ff0242fe",
+    "text": "Do not attract undue attention to myself",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "af7ed300-1ddf-4340-bbcb-3ca56a25e533",
+    "text": "Let other people have the spotlight",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "c4c8c607-a817-4011-be12-723b69d965f0",
+    "text": "Do things according to a plan",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "d084c18f-20e9-4736-b01f-d0a71513653c",
+    "text": "Feel comfortable around people",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "db6026c2-f232-46ee-93e7-62f0d64b718a",
+    "text": "Am good at seeing beneath the surface of false good intentions",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "ec99549b-37e7-468c-9aa1-24149a0c324f",
+    "text": "Am resistant to radical, dangerous thoughts",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "04cb174f-5fb3-428b-a27a-df24a816f3ef",
+    "text": "Can always see new possibility in things",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "0d9071f7-e249-41f4-9bb8-961e3995d292",
+    "text": "Am not afraid of new people or social situations",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "1a54082e-29e9-4352-a349-66085349ceb5",
+    "text": "Can handle a lot of information",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "1dd9b9b7-f19f-431a-9633-64a48b81e6ee",
+    "text": "Do not feel that I always have to be in control",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "33f14e53-c2d8-4b4f-b46a-96d54fdf693a",
+    "text": "Think before I act",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "54c185c8-a4fe-4aaf-bde7-bd99a00b5676",
+    "text": "Have a relaxed, laid-back attitude",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "6eeab538-d08e-4848-b0e7-0f7d7ece968c",
+    "text": "Am rarely or never stopped from doing what I want by my fears",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "832c17cd-5fe2-4731-a7e2-1510c93d2c97",
+    "text": "Carry the conversation to a higher level",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "877d97ec-8d5f-426a-93eb-740b3543ba81",
+    "text": "Spend time reflecting on things",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "8864d937-47dc-41a9-9f64-f259463cf1cd",
+    "text": "Do not upset my parents or other cultural authorities with doubts and questions",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "8b31b467-b4ee-4470-b331-35d8ca3fb58a",
+    "text": "Stick to what I know and am comfortable with",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "8f437ef0-a872-4875-be8f-90b84acce415",
+    "text": "Feel at ease with people",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "957b1ab9-202d-4889-bf3d-439f5ce46b7f",
+    "text": "Inquire genuinely about others' well-being",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "b77d5757-dd2b-4c2f-9745-bc29b661299e",
+    "text": "Am a very loyal friend",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "baad197e-9228-4f1c-b0d7-cb36bb36cc9f",
+    "text": "Take time out for others",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "d4a5acc0-2976-4a5a-aa3c-74931a15592e",
+    "text": "Watch what I eat carefully",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "d842dfd2-4cab-48ca-8900-424914278b30",
+    "text": "Am aware that malevolence exists in the world",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "eb52523e-3c1e-40ea-bc22-05ccd122f47a",
+    "text": "Enjoy time in natural surroundings",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "0e3fa7c0-2da5-46cd-b5ee-b275cbd9bd79",
+    "text": "Will go to the doctor's office if there seems to be something wrong with me",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "1e434b4e-7d01-4069-a694-c6e535f6f7be",
+    "text": "Continue until everything is perfect",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "24a2f004-b183-4b36-a432-6868a3aae140",
+    "text": "Truly care about others",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "4fc12214-5e35-4ef0-adc8-1bd1a6fcf81f",
+    "text": "Am never perfectionistic",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "502de2af-8ffb-4286-baba-2522cf66bfd8",
+    "text": "Do not impose a rigid set of standards on other people",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "55559385-6b99-4682-b585-bafaf28a7649",
+    "text": "Am a cautious, careful person",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "682e1234-f2ae-46a6-bc57-8269430dad90",
+    "text": "Never follow fads",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "7444087e-8a32-4a6f-8a6a-7c3386781aa3",
+    "text": "Seldom feel hurt",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "9a983541-271f-4be5-bfa0-eba751319576",
+    "text": "Talk to a lot of different people at social occasions",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "a1b1a053-66d6-4e49-a813-3ff690301d8b",
+    "text": "Am comfortable alone",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "a8db89e9-a285-4b94-a967-50f006da52bf",
+    "text": "Am a down-to-earth person",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "adf7246d-ed74-4c90-b539-9e4489068821",
+    "text": "Try not to introduce unnecessary change into my life",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "bbbccf56-812c-4798-9bc3-e5754c250a95",
+    "text": "Do not party or socialize excessively",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "c3088e7e-dc60-4fa6-80b1-f78809395aac",
+    "text": "Do not always have to be the center of attention",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "c68e9ba0-0d8d-4b94-b401-0063a2e74860",
+    "text": "Can see when people are playing games",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "c9e8faa0-2553-41e5-af77-6a7830dd2e37",
+    "text": "Am often happy",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "e76d6f5e-6d85-49c2-9505-62ea7cc646fc",
+    "text": "Can listen well",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "08f8ecd7-e11e-4f18-bb23-e3fd22a73e1f",
+    "text": "Am not judgemental",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "11356ec2-d0c1-4340-bd1f-80f1c3281e47",
+    "text": "Am very goal-oriented",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "1c4116a2-a07e-4d22-a64b-ccf91d099272",
+    "text": "Am very rarely taken advantage of",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "22753cf8-e2b7-481a-9e46-73928c1515ee",
+    "text": "Strive for efficiency and economy",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "23b52a04-8dc2-4630-a33c-74fb5a9b90f6",
+    "text": "Don't rush into things before I feel comfortable",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "45b858d6-ce94-4cf5-b442-82c9662681b1",
+    "text": "See the value in tradition and custom",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "5a244d6c-e30a-4e7f-a9f5-963657778535",
+    "text": "Love children",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "626c296a-4135-4487-b725-6f433476fc99",
+    "text": "Am sceptical",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "70b587c9-6de9-4118-8738-01b4a83f36bb",
+    "text": "Am difficult to offend",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "7d86f7fc-d91a-48b7-99b3-7cb5c5c974a2",
+    "text": "Do not dominate conversations",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "bcb3bbaf-142e-4b17-99f5-2d42b8a03f3e",
+    "text": "Rarely get irritated or angry",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "c077c3bd-e74b-4236-8d0e-2a6456460cfc",
+    "text": "Have a soft heart",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "cc6466e6-f250-491a-a590-b5cf9cfa83f0",
+    "text": "Don't get caught up in my problems or blow things out of proportion",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "e3d25ec9-fca5-47a1-b3a6-ad0c0cbf0a3e",
+    "text": "Trust people",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "ef442d76-a86f-48a8-8272-296f68705698",
+    "text": "Know how to captivate people",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "efee94d9-6cac-4016-9e6a-afccfcdd9050",
+    "text": "Have a very long attention span and can work without being distracted",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "f1401868-f27d-498a-b2fb-415f7c8cc47a",
+    "text": "Am a good peacemaker",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "09f6d1ee-d9a4-4329-b3e3-065741c88673",
+    "text": "Don't mind being the center of attention",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "19dbd58c-2abb-4c3f-bf78-f7699a6e557c",
+    "text": "Am protective and careful with little children",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "1a6dce35-71d1-4fc9-984f-5c1648d64e2b",
+    "text": "Rarely or never suffer extreme anxiety, even when stressed",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "1d917aef-517e-4e31-b68f-b3c62910bb16",
+    "text": "Easily start conversations",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "33ad7df2-2353-4baf-81c7-c6eb7568a8d6",
+    "text": "Am skilled in handling social situations",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "3fbd2bc4-a825-47ab-b955-9026686ebf76",
+    "text": "Am seldom or never bothered by strange thoughts or feelings",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "4a3a8ad2-5235-4077-ba8a-cda87152bb83",
+    "text": "Never do more work than is necessary",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "60a3217a-1bf3-4d2d-a1af-cc1aac7a36f9",
+    "text": "Am philosophically inclined",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "642706cd-5a87-4c6b-b792-bcd5a158f785",
+    "text": "Respect authority",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "666d711c-dd2f-423c-a15b-04f1b9fa0686",
+    "text": "Make plans and stick to them",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "851d2ebf-7739-410e-917c-37b011390607",
+    "text": "Am exacting in my work",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "9cd53be5-cb45-485a-bd84-7e03b1ea0fc0",
+    "text": "Am seldom attracted by foolish, new-age ideas",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "c083b621-48a0-4d13-b5b6-5738165d6622",
+    "text": "Am full of ideas",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "c94e17c0-7393-46c5-b83c-fba02fb012d2",
+    "text": "Am not bothered when things don't go according to plan",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "cb0ba16d-9ac8-42ee-8bae-f0c971ab9987",
+    "text": "Have a rich vocabulary",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "d36f75cb-29b6-407d-8584-b930f0b7c114",
+    "text": "Am not naively innocent",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "dbe69cca-8b25-4037-8e79-08e55ee048c6",
+    "text": "Can be the life of the party",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "eaf90cc6-b88e-4270-a507-7490f86b3be2",
+    "text": "Am seldom bothered by disorder",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "028c538b-6db4-4705-8eb1-62f2bdd6f989",
+    "text": "Can be demanding when the circumstances warrant",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "21214b16-77c8-4f58-a52e-3c5ad4835376",
+    "text": "Have a lot of insight into myself and others",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "23f31dfc-c35e-4e25-b6c4-93ba4e7521d8",
+    "text": "Feel others' emotions",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "2d3ff5d2-a0ef-4933-9d32-4ebb763865d4",
+    "text": "Like to invite people out or at home to socialize",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "54012b73-7c59-45f4-8a4f-5418decde9d0",
+    "text": "Have seen my tendency for hard work pay off",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "656d131e-24ed-4bd8-b7f0-2f10bd812d7f",
+    "text": "Will stand up for myself",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "6a36638a-3722-426a-b10b-76166cdf98f4",
+    "text": "Am rarely or never too loud",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "6dc0240d-8508-4b8c-929e-c8fd971d21f7",
+    "text": "Am in control of my emotions",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "85ec1fd2-5796-47e2-936e-f82157187ce6",
+    "text": "Am aware of potential trouble even when other people appear confident",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "87085530-f6db-433a-8328-db9e70a9a37a",
+    "text": "Have a vivid imagination",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "b9d3bd1e-16fc-4496-9d7b-549e10c1e9e0",
+    "text": "Catch on to things quickly",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "c3120958-a1e0-458a-844b-19952a0cdd41",
+    "text": "Am entrepreneurial",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "df1ff9d4-b94a-410a-939f-42d12fb288f9",
+    "text": "Do not spend my money on a whim",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "e4d6c778-c373-47e2-abac-6a195cfbfe13",
+    "text": "Am not grandiose or arrogant",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "e9db05a4-8dbd-4208-b415-5f86e3bebaa3",
+    "text": "Will not forgive easily if betrayed or deceived",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "e9ecd1d0-5112-479b-b06e-fcf9098ad354",
+    "text": "Am a creative person",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "eba33dba-96aa-452f-bd1d-9e58b1b8fc68",
+    "text": "Do not set my expectations too high",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "f6b84ff3-e974-449d-a6a8-406064817624",
+    "text": "Am extremely reliable",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "268864e0-6f87-4b29-b7b1-f6ff4e257f18",
+    "text": "Am always prepared",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "29b1e4e4-7a1b-43f8-ba59-1aa646d18bd7",
+    "text": "Rarely self-conscious, ashamed or embarrassed",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "42b9701d-e526-4d93-a18b-4dfc8f77190b",
+    "text": "Can easily be spontaneous and enjoy the moment",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "42e5ee63-1e77-478c-a47f-ab5c30ad9ea1",
+    "text": "Am a very sensible person",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "57d60049-5a57-4aba-96a0-76253ce5bcaf",
+    "text": "Am fun to be around",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "5a5b8481-e3ba-4b8e-91d9-1ac359af0f3e",
+    "text": "Rarely complain or grumble about things",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "76809ff8-086f-42ee-afdb-1dbbb5cff007",
+    "text": "Don't get too caught up in my work",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "91b9aa86-f309-49e7-8f6c-c3ece6838c45",
+    "text": "Feel enough shame if I do something stupid so I won't do it again",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "9bd0e787-939c-4fea-83b8-3ca6d7febec6",
+    "text": "Know how to comfort others",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "a18af400-ff36-473b-bebe-0a04a70a6c1e",
+    "text": "Do not always believe what people promise",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "b5c4e923-75ad-478e-be8a-6bc051d71e7e",
+    "text": "Do not trust people too easily",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "b9a5bfb5-19e4-4f3b-b859-7cbb44cebc4d",
+    "text": "Sympathize with others' feelings",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "ba00f908-53d8-4a88-9715-8904720c3836",
+    "text": "Make other people laugh and have fun",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "d14427bf-9c57-49c5-979f-ad99f0f57520",
+    "text": "Am not flighty or unpredictable",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "e0bd5b6a-ce79-40f2-9b2e-7ae57ce603b8",
+    "text": "Work very well with other people on teams",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "e8484bdb-6475-434e-80a0-d9e8c205f327",
+    "text": "Am not too uptight",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "ef080ac0-efd0-4631-b2c3-baea93807981",
+    "text": "Am not easily swayed by emotions that might be manipulative",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "f895ad86-6c94-4982-8a46-3396838494e3",
+    "text": "Am cautious of good intentions before proof is offered",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "1f51c25f-b4c3-4832-a529-d51813ff6e64",
+    "text": "Am relaxed most of the time",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "2d52069e-0156-456d-adce-60a7ed21ea12",
+    "text": "Am quick to understand things",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "34173d12-5465-4b6f-b3e8-174503776d8d",
+    "text": "Love order and regularity",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "3480463a-31e0-4f97-bb81-b01fb1185564",
+    "text": "Am rarely incautious",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "3ec8ea45-87fc-4556-84da-c95170034f1f",
+    "text": "Am rarely impulsive",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "42301291-a00c-46df-bc74-6c645293a7a1",
+    "text": "Live in the moment",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "575094dc-03c1-4b8d-b8a9-e934e0730192",
+    "text": "Don't waste my time thinking about little details",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "5f090d03-2ef3-4ab0-a4da-f27e674899d6",
+    "text": "Am on good terms with nearly everyone",
+    "trait": "A",
+    "pole": "virtue"
+  },
+  {
+    "id": "83cc12e5-0254-4422-8096-ccb44d88284d",
+    "text": "Calm down quickly when I do get upset",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "8ccc59e9-257d-41b8-9ebe-2f3f6285d738",
+    "text": "Am concerned that my parents or relatives approve of my decisions",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "9c41159e-d454-4ca3-b35a-b56d3674023a",
+    "text": "Know how to go with the flow",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "c79f26dc-0841-4358-a6ce-1a2331010ebf",
+    "text": "Do not always talk about myself",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "c81c6594-f7af-4a9c-a7b8-90990d3a988c",
+    "text": "Make friends easily",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "cbe8d7aa-5099-4169-8a2b-8c655fa2e94d",
+    "text": "Stay out of places that might have dangerous people in them",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "d802e89d-8c53-48a5-8dc5-8d289a7cee04",
+    "text": "Am stable in my moral beliefs",
+    "trait": "O",
+    "pole": "virtue"
+  },
+  {
+    "id": "eacaac29-a10f-4335-92dc-bce30aa4d4ac",
+    "text": "Am good at identifying the risks in new situations",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "fbb9ced6-6515-4497-9e0a-021a3040026d",
+    "text": "Can take charge and lead",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "159abc13-ec09-41b4-9333-d528938ea585",
+    "text": "Am content with my physical appearance, despite its flaws",
+    "trait": "N",
+    "pole": "virtue"
+  },
+  {
+    "id": "31994d20-6e83-4efc-a753-6ad8b4453f5c",
+    "text": "Do not always need to seek excitement or novelty",
+    "trait": "E",
+    "pole": "virtue"
+  },
+  {
+    "id": "48699850-5788-41fd-a2fb-33539ff620c7",
+    "text": "Pay attention to details",
+    "trait": "C",
+    "pole": "virtue"
+  },
+  {
+    "id": "cbdee765-3049-441c-a28f-c0ea6b75ed18",
+    "text": "Seldom feel depressed or blue",
+    "trait": "N",
+    "pole": "virtue"
+  }
+]

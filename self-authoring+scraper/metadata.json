@@ -1,0 +1,26 @@
+{
+  "source_url": "https://spangled-catfish-37c.notion.site/Self-Authoring-By-Jordan-Peterson-0d02e15ccaed45f2aebf3a8cd3b81466",
+  "root_page_id": "0d02e15c-caed-45f2-aebf-3a8cd3b81466",
+  "space_id": "b9fc0af9-39c5-4011-809c-01abb955ffe8",
+  "pages_scraped": 16,
+  "blocks_fetched": 807,
+  "collections_fetched": 4,
+  "page_paths": {
+    "0d02e15c-caed-45f2-aebf-3a8cd3b81466": "index.md",
+    "0ada1af8-bc79-4bfc-aace-8490f17589fe": "introduction/index.md",
+    "332c9b0b-9b91-4281-ae67-f32c39bff512": "present-authoring-faults/index.md",
+    "cae95680-86b2-42cf-aa58-45a383dd22d3": "present-authoring-faults/instructions/index.md",
+    "81682712-3b1e-4dea-982f-992afe04eb5d": "present-authoring-faults/step-1/index.md",
+    "9b275cd9-f5d4-4c95-9472-1d6274674b71": "present-authoring-faults/step-2/index.md",
+    "8f2b8b4a-0298-4f5c-ac3a-c4852a1196df": "present-authoring-faults/conclusion/index.md",
+    "8cc7b8a1-2d77-4152-b9c5-0531d94e8ebc": "present-authoring-virtues/index.md",
+    "f43b3d5d-41db-491b-b12b-a7dddfd96d25": "present-authoring-virtues/instructions/index.md",
+    "863ba860-62e1-4f7e-89c5-2b4be8d6238e": "present-authoring-virtues/step-1/index.md",
+    "2fa959fe-4bbf-4733-90f2-9e5cb70e072e": "present-authoring-virtues/step-2/index.md",
+    "c4dc2537-3e36-4e64-8e0c-5b209afaee84": "present-authoring-virtues/conclusion/index.md",
+    "0f236832-79a3-47fd-916e-47f91a0a6c07": "future-authoring/index.md",
+    "121091f8-e92d-46ce-b9ac-c79a033e2ea2": "future-authoring/instructions/index.md",
+    "f6b756f7-71bb-42d7-87bd-adb10be96427": "past-authoring/index.md",
+    "e4b9ae7f-2ae4-4d62-b83f-2838fa384087": "past-authoring/introduction/index.md"
+  }
+}
