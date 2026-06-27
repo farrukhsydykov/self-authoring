@@ -4,8 +4,6 @@ import { Layout } from "./components/Layout";
 import { LoginPage } from "./pages/LoginPage";
 import { RegisterPage } from "./pages/RegisterPage";
 import { DashboardPage } from "./pages/DashboardPage";
-import { OceanPage } from "./pages/OceanPage";
-import { OceanResultsPage } from "./pages/OceanResultsPage";
 import { PresentAuthoringPage } from "./pages/PresentAuthoringPage";
 import { PastAuthoringPage } from "./pages/PastAuthoringPage";
 import { FutureAuthoringPage } from "./pages/FutureAuthoringPage";
@@ -30,10 +28,10 @@ export default function App() {
         }
       >
         <Route index element={<DashboardPage />} />
-        <Route path="ocean" element={<OceanPage />} />
-        <Route path="ocean/results/:id" element={<OceanResultsPage />} />
-        <Route path="faults" element={<PresentAuthoringPage key="faults" module="faults" />} />
-        <Route path="virtues" element={<PresentAuthoringPage key="virtues" module="virtues" />} />
+        <Route path="ocean/*" element={<Navigate to="/present" replace />} />
+        <Route path="present" element={<PresentAuthoringPage />} />
+        <Route path="faults" element={<Navigate to="/present" replace />} />
+        <Route path="virtues" element={<Navigate to="/present" replace />} />
         <Route path="past" element={<PastAuthoringPage />} />
         <Route path="future" element={<FutureAuthoringPage />} />
       </Route>

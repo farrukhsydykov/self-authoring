@@ -1,29 +1,69 @@
-import { useCallback, useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { api } from "./api";
 
-/** Debounced autosave hook for authoring modules. */
+export type AutosaveStatus = "idle" | "saving" | "saved" | "error";
+
+/** Debounced autosave hook for authoring modules with flush-on-exit support. */
 export function useAutosave(module: string, data: unknown, enabled = true) {
   const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   const lastSaved = useRef<string>("");
+  const dataRef = useRef(data);
+  const [status, setStatus] = useState<AutosaveStatus>("idle");
+
+  dataRef.current = data;
 
   const save = useCallback(async () => {
-    const serialized = JSON.stringify(data);
+    const payload = dataRef.current;
+    const serialized = JSON.stringify(payload);
     if (serialized === lastSaved.current) return;
-    await api(`/authoring/${module}`, {
-      method: "PUT",
-      body: serialized,
-    });
-    lastSaved.current = serialized;
-  }, [module, data]);
+    setStatus("saving");
+    try {
+      await api(`/authoring/${module}`, {
+        method: "PUT",
+        body: serialized,
+      });
+      lastSaved.current = serialized;
+      setStatus("saved");
+    } catch {
+      setStatus("error");
+    }
+  }, [module]);
+
+  const saveImmediate = useCallback(async () => {
+    clearTimeout(timer.current);
+    await save();
+  }, [save]);
 
   useEffect(() => {
     if (!enabled) return;
     clearTimeout(timer.current);
     timer.current = setTimeout(() => {
-      save().catch(() => {});
-    }, 1500);
+      save().catch(() => setStatus("error"));
+    }, 600);
     return () => clearTimeout(timer.current);
   }, [data, enabled, save]);
 
-  return save;
+  useEffect(() => {
+    if (!enabled) return;
+
+    const flush = () => {
+      const serialized = JSON.stringify(dataRef.current);
+      if (serialized === lastSaved.current) return;
+      void save();
+    };
+
+    const onVisibility = () => {
+      if (document.visibilityState === "hidden") flush();
+    };
+
+    window.addEventListener("pagehide", flush);
+    document.addEventListener("visibilitychange", onVisibility);
+    return () => {
+      window.removeEventListener("pagehide", flush);
+      document.removeEventListener("visibilitychange", onVisibility);
+      flush();
+    };
+  }, [enabled, save]);
+
+  return { save: saveImmediate, status };
 }

@@ -1,10 +1,10 @@
 import type {
   AuthoringModule,
   FutureAuthoringData,
-  OceanScores,
   PastAuthoringData,
   PresentAuthoringData,
-  Trait,
+  PresentAuthoringItem,
+  PresentPartKey,
 } from "@self-authoring/shared";
 import { TRAIT_LABELS } from "@self-authoring/shared";
 
@@ -31,53 +31,42 @@ export function downloadFile(content: string, filename: string) {
   URL.revokeObjectURL(url);
 }
 
-/** Formats OCEAN scores for export. */
-export function formatOceanExport(
-  scores: OceanScores,
-  createdAt: string,
+function formatPartItems(
+  items: PresentAuthoringItem[],
+  part: PresentPartKey,
   format: Format
 ): string {
-  let out = heading("OCEAN Personality Assessment Results", 1, format);
-  out += line("Date", new Date(createdAt).toLocaleString(), format);
-  out += heading("Trait Scores", 2, format);
-
-  for (const trait of ["O", "C", "E", "A", "N"] as Trait[]) {
-    const t = scores.traits[trait];
-    out += heading(TRAIT_LABELS[trait], 3, format);
-    out += line("Score", `${t.score}/100 (${t.band})`, format);
-    out += `${t.description}\n\n`;
+  let out = "";
+  const sorted = [...items].sort((a, b) => a.order - b.order);
+  for (const item of sorted) {
+    out += heading(item.text, 2, format);
+    out += line("Trait", TRAIT_LABELS[item.trait], format);
+    out += line("Impact order", String(item.order), format);
+    if (item.reflection.example) {
+      out += heading("Specific Example", 3, format);
+      out += `${item.reflection.example}\n\n`;
+    }
+    if (item.reflection.lesson) {
+      const lessonTitle =
+        part === "faults" ? "What I Could Have Done Differently" : "Using This Virtue More Effectively";
+      out += heading(lessonTitle, 3, format);
+      out += `${item.reflection.lesson}\n\n`;
+    }
+    if (part === "faults" && item.reflection.betterOutcome) {
+      out += heading("Better Outcome", 3, format);
+      out += `${item.reflection.betterOutcome}\n\n`;
+    }
   }
-
-  out += heading("Higher-Order Factors", 2, format);
-  out += line("Plasticity", `${scores.plasticity.score}/100 (${scores.plasticity.band})`, format);
-  out += line("Stability", `${scores.stability.score}/100 (${scores.stability.band})`, format);
   return out;
 }
 
-/** Formats present authoring (faults/virtues) for export. */
-export function formatPresentExport(
-  data: PresentAuthoringData,
-  moduleLabel: string,
-  format: Format
-): string {
-  let out = heading(`Present Authoring — ${moduleLabel}`, 1, format);
-  for (const item of data.finalSelections) {
-    out += heading(item.text, 2, format);
-    out += line("Trait", TRAIT_LABELS[item.trait], format);
-    if (item.rank != null) out += line("Rank", String(item.rank), format);
-    if (item.negativePastImpact) {
-      out += heading("Negative Past Impact", 3, format);
-      out += `${item.negativePastImpact}\n\n`;
-    }
-    if (item.couldHaveDoneDifferently) {
-      out += heading("What I Could Have Done Differently", 3, format);
-      out += `${item.couldHaveDoneDifferently}\n\n`;
-    }
-    if (item.rectifyNowFuture) {
-      out += heading("How to Rectify Now and in the Future", 3, format);
-      out += `${item.rectifyNowFuture}\n\n`;
-    }
-  }
+/** Formats present authoring programme for export. */
+export function formatPresentExport(data: PresentAuthoringData, format: Format): string {
+  let out = heading("Present Authoring", 1, format);
+  out += heading("Faults", 2, format);
+  out += formatPartItems(data.faults.finalSelections, "faults", format);
+  out += heading("Virtues", 2, format);
+  out += formatPartItems(data.virtues.finalSelections, "virtues", format);
   return out;
 }
 
@@ -130,17 +119,11 @@ export function formatFutureExport(data: FutureAuthoringData, format: Format): s
 }
 
 /** Exports any module data in the chosen format. */
-export function exportModule(
-  module: AuthoringModule,
-  data: unknown,
-  format: Format
-) {
+export function exportModule(module: AuthoringModule, data: unknown, format: Format) {
   let content = "";
   const ext = format;
-  if (module === "faults") {
-    content = formatPresentExport(data as PresentAuthoringData, "Faults", format);
-  } else if (module === "virtues") {
-    content = formatPresentExport(data as PresentAuthoringData, "Virtues", format);
+  if (module === "present") {
+    content = formatPresentExport(data as PresentAuthoringData, format);
   } else if (module === "past") {
     content = formatPastExport(data as PastAuthoringData, format);
   } else {

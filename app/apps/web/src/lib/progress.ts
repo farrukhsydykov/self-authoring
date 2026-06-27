@@ -6,6 +6,9 @@ import type {
   PresentAuthoringData,
 } from "@self-authoring/shared";
 import { FUTURE_IMAGINATION_PROMPTS } from "@self-authoring/shared";
+import type { OceanItem } from "@self-authoring/shared";
+import oceanItems from "@self-authoring/shared/ocean-items.json";
+import { getPresentProgrammeProgress } from "./present-progress";
 
 export interface ModuleProgress {
   percent: number;
@@ -16,41 +19,15 @@ export interface ModuleProgress {
 
 export type CompletionStatus = "not_started" | "in_progress" | "complete";
 
+const items = oceanItems as OceanItem[];
+const faultIds = items.filter((i) => i.pole === "fault").map((i) => i.id);
+const virtueIds = items.filter((i) => i.pole === "virtue").map((i) => i.id);
+
 /** Derives a three-state completion label from progress percentage. */
 export function getCompletionStatus(percent: number, started: boolean): CompletionStatus {
   if (!started) return "not_started";
   if (percent >= 100) return "complete";
   return "in_progress";
-}
-
-/** Computes OCEAN assessment progress from draft answers and saved results. */
-export function getOceanProgress(
-  answeredCount: number,
-  totalItems: number,
-  hasSavedResult: boolean
-): ModuleProgress {
-  if (hasSavedResult) {
-    return {
-      percent: 100,
-      stepLabel: "Complete",
-      detail: `${totalItems}/${totalItems} items`,
-      status: "complete",
-    };
-  }
-  if (answeredCount > 0) {
-    const percent = Math.round((answeredCount / totalItems) * 100);
-    return {
-      percent,
-      stepLabel: "In progress",
-      detail: `${answeredCount}/${totalItems} items answered`,
-      status: "in_progress",
-    };
-  }
-  return {
-    percent: 0,
-    stepLabel: "Not started",
-    status: "not_started",
-  };
 }
 
 /** Computes completion percentage and status label for an authoring module. */
@@ -62,62 +39,19 @@ export function getModuleProgress(
     return { percent: 0, stepLabel: "Not started", status: "not_started" };
   }
 
-  let progress: Omit<ModuleProgress, "status">;
   switch (module) {
+    case "present":
+      return getPresentProgrammeProgress(data as PresentAuthoringData, faultIds, virtueIds);
     case "faults":
     case "virtues":
-      progress = getPresentProgress(data as PresentAuthoringData);
-      break;
+      return { percent: 0, stepLabel: "Use Present Authoring", status: "not_started" };
     case "past":
-      progress = getPastProgress(data as PastAuthoringData);
-      break;
+      return { ...getPastProgress(data as PastAuthoringData), status: getCompletionStatus(getPastProgress(data as PastAuthoringData).percent, true) };
     case "future":
-      progress = getFutureProgress(data as FutureAuthoringData);
-      break;
+      return { ...getFutureProgress(data as FutureAuthoringData), status: getCompletionStatus(getFutureProgress(data as FutureAuthoringData).percent, true) };
     default:
       return { percent: 0, stepLabel: "Not started", status: "not_started" };
   }
-
-  return {
-    ...progress,
-    status: getCompletionStatus(progress.percent, true),
-  };
-}
-
-function getPresentProgress(data: PresentAuthoringData): Omit<ModuleProgress, "status"> {
-  const labels: Record<PresentAuthoringData["step"], string> = {
-    instructions: "Instructions",
-    select: "Selecting traits",
-    rank: "Ranking items",
-    write: "Writing reflections",
-    conclusion: "Complete",
-  };
-
-  if (data.step === "conclusion") {
-    return { percent: 100, stepLabel: labels.conclusion };
-  }
-
-  if (data.step === "write") {
-    const total = data.finalSelections.length || 1;
-    const done = data.finalSelections.filter(
-      (s) => s.negativePastImpact && s.couldHaveDoneDifferently && s.rectifyNowFuture
-    ).length;
-    return {
-      percent: Math.round(55 + (done / total) * 40),
-      stepLabel: labels.write,
-      detail: `${done}/${total} reflections`,
-    };
-  }
-
-  const stepWeights: Record<PresentAuthoringData["step"], number> = {
-    instructions: 5,
-    select: 25,
-    rank: 45,
-    write: 55,
-    conclusion: 100,
-  };
-
-  return { percent: stepWeights[data.step], stepLabel: labels[data.step] };
 }
 
 function getPastProgress(data: PastAuthoringData): Omit<ModuleProgress, "status"> {

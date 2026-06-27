@@ -31,17 +31,19 @@ model OceanResult {
 enum AuthoringModule {
   past
   future
+  present
   faults
   virtues
 }
 
 model UserProfile {
-  id            String   @id @default(cuid())
-  userId        String   @unique
-  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  oceanResultId String
-  assessment    Json
-  updatedAt     DateTime @updatedAt
+  id               String   @id @default(cuid())
+  userId           String   @unique
+  user             User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  oceanResultId    String
+  assessment       Json
+  presentOverview  Json?
+  updatedAt        DateTime @updatedAt
 }
 
 model AuthoringDocument {

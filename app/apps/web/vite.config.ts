@@ -15,7 +15,7 @@ export default defineConfig({
       manifest: {
         name: "Self-Authoring",
         short_name: "SelfAuthor",
-        description: "OCEAN assessment and Self-Authoring programs",
+        description: "Self-Authoring personality and life programs",
         theme_color: "#1e3a5f",
         background_color: "#f8fafc",
         display: "standalone",

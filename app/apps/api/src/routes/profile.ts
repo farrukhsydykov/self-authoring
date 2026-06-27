@@ -1,6 +1,4 @@
 import type { FastifyInstance } from "fastify";
-import type { PersonalityPortrait } from "@self-authoring/shared";
-import type { Prisma } from "@prisma/client";
 import { PrismaClient } from "@prisma/client";
 import { requireAuth } from "../auth.js";
 
@@ -14,8 +12,7 @@ export function registerProfileRoutes(app: FastifyInstance, prisma: PrismaClient
       return reply.status(404).send({ error: "No profile found" });
     }
     return {
-      assessment: profile.assessment as unknown as PersonalityPortrait,
-      oceanResultId: profile.oceanResultId,
+      presentOverview: profile.presentOverview ?? null,
       updatedAt: profile.updatedAt,
     };
   });

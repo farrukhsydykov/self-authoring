@@ -1,6 +1,5 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import type { LikertAnswer } from "@self-authoring/shared";
 import { api } from "../lib/api";
 
 interface User {
@@ -52,36 +51,5 @@ export const useAuthStore = create<AuthState>()(
         if (state?.token) localStorage.setItem("token", state.token);
       },
     }
-  )
-);
-
-interface OceanDraft {
-  answers: Record<string, LikertAnswer>;
-  currentIndex: number;
-}
-
-interface OceanState {
-  draft: OceanDraft;
-  setAnswer: (itemId: string, value: LikertAnswer) => void;
-  setIndex: (index: number) => void;
-  resetDraft: () => void;
-}
-
-export const useOceanStore = create<OceanState>()(
-  persist(
-    (set) => ({
-      draft: { answers: {}, currentIndex: 0 },
-      setAnswer: (itemId, value) =>
-        set((s) => ({
-          draft: {
-            ...s.draft,
-            answers: { ...s.draft.answers, [itemId]: value },
-          },
-        })),
-      setIndex: (index) =>
-        set((s) => ({ draft: { ...s.draft, currentIndex: index } })),
-      resetDraft: () => set({ draft: { answers: {}, currentIndex: 0 } }),
-    }),
-    { name: "ocean-draft" }
   )
 );

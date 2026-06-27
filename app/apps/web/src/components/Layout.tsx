@@ -4,9 +4,7 @@ import { Button } from "./Button";
 
 const navItems = [
   { to: "/", label: "Dashboard", icon: "◈", end: true },
-  { to: "/ocean", label: "OCEAN", icon: "◎", end: false },
-  { to: "/faults", label: "Faults", icon: "△", end: false },
-  { to: "/virtues", label: "Virtues", icon: "◇", end: false },
+  { to: "/present", label: "Present", icon: "◆", end: false },
   { to: "/past", label: "Past", icon: "◁", end: false },
   { to: "/future", label: "Future", icon: "▷", end: false },
 ];

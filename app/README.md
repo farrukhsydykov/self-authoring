@@ -1,6 +1,6 @@
 # Self-Authoring OCEAN App
 
-A mobile-first PWA for the 300-item Big Five (OCEAN) assessment and the four Self-Authoring programs (Past, Present-Faults, Present-Virtues, Future).
+A mobile-first PWA for the 300-item Big Five (OCEAN) assessment and Self-Authoring programmes (Present, Past, Future).
 
 ## Quick Start
 

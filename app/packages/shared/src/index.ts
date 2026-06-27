@@ -8,7 +8,67 @@ export interface OceanItem {
   pole: Pole;
 }
 
-export type AuthoringModule = "past" | "future" | "faults" | "virtues";
+export type AuthoringModule = "past" | "future" | "present" | "faults" | "virtues";
+
+export type PresentPartKey = "faults" | "virtues";
+
+export type PresentPartStep = "instructions" | "assessment" | "narrow" | "write" | "complete";
+
+export interface PresentAuthoringReflection {
+  example: string;
+  lesson: string;
+  betterOutcome?: string;
+}
+
+export interface PresentAuthoringItem {
+  itemId: string;
+  text: string;
+  trait: Trait;
+  order: number;
+  reflection: PresentAuthoringReflection;
+}
+
+export interface PresentAuthoringPartData {
+  step: PresentPartStep;
+  assessmentAnswers: Record<string, LikertAnswer>;
+  finalSelections: PresentAuthoringItem[];
+  activeTrait: Trait;
+  assessmentIndex: number;
+  writeIndex: number;
+}
+
+export interface PresentAuthoringOverview {
+  summary: string;
+  faultPatterns: string[];
+  virtueStrengths: string[];
+  growthAreas: string[];
+  actionableRecommendations: string[];
+}
+
+export interface PresentAuthoringData {
+  activePart: PresentPartKey;
+  faults: PresentAuthoringPartData;
+  virtues: PresentAuthoringPartData;
+  overview?: PresentAuthoringOverview;
+}
+
+/** @deprecated Legacy single-module shape kept for migration */
+export interface LegacyPresentAuthoringData {
+  step: "instructions" | "select" | "rank" | "write" | "conclusion";
+  step1Selections: Record<Trait, string[]>;
+  finalSelections: LegacyPresentAuthoringItem[];
+}
+
+/** @deprecated Legacy item shape kept for migration */
+export interface LegacyPresentAuthoringItem {
+  itemId: string;
+  text: string;
+  trait: Trait;
+  rank?: number;
+  negativePastImpact?: string;
+  couldHaveDoneDifferently?: string;
+  rectifyNowFuture?: string;
+}
 
 export type LikertAnswer = 1 | 2 | 3 | 4 | 5;
 
@@ -23,22 +83,6 @@ export interface OceanScores {
   traits: Record<Trait, TraitScore>;
   plasticity: { score: number; band: "low" | "medium" | "high" };
   stability: { score: number; band: "low" | "medium" | "high" };
-}
-
-export interface PresentAuthoringItem {
-  itemId: string;
-  text: string;
-  trait: Trait;
-  rank?: number;
-  negativePastImpact?: string;
-  couldHaveDoneDifferently?: string;
-  rectifyNowFuture?: string;
-}
-
-export interface PresentAuthoringData {
-  step: "instructions" | "select" | "rank" | "write" | "conclusion";
-  step1Selections: Record<Trait, string[]>;
-  finalSelections: PresentAuthoringItem[];
 }
 
 export interface PastExperience {
@@ -151,3 +195,5 @@ export const DEFAULT_PAST_EPOCHS = [
   "Middle Age",
   "Later Life",
 ];
+
+export * from "./present.js";

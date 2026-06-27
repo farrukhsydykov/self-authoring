@@ -1,5 +1,3 @@
-import { downloadFile, formatOceanExport } from "../lib/export";
-import type { OceanScores } from "@self-authoring/shared";
 import { Button } from "./Button";
 
 interface ExportButtonsProps {
@@ -18,25 +16,5 @@ export function ExportButtons({ onExportMd, onExportTxt }: ExportButtonsProps) {
         Export .txt
       </Button>
     </div>
-  );
-}
-
-/** Export buttons for OCEAN results. */
-export function OceanExportButtons({
-  scores,
-  createdAt,
-}: {
-  scores: OceanScores;
-  createdAt: string;
-}) {
-  return (
-    <ExportButtons
-      onExportMd={() =>
-        downloadFile(formatOceanExport(scores, createdAt, "md"), "ocean-results.md")
-      }
-      onExportTxt={() =>
-        downloadFile(formatOceanExport(scores, createdAt, "txt"), "ocean-results.txt")
-      }
-    />
   );
 }

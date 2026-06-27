@@ -2,7 +2,6 @@ import Fastify from "fastify";
 import cors from "@fastify/cors";
 import { PrismaClient } from "@prisma/client";
 import { registerAuthRoutes } from "./routes/auth.js";
-import { registerOceanRoutes } from "./routes/ocean.js";
 import { registerAuthoringRoutes } from "./routes/authoring.js";
 import { registerProfileRoutes } from "./routes/profile.js";
 
@@ -31,7 +30,6 @@ async function main() {
   await app.register(cors, { origin: true });
 
   registerAuthRoutes(app, prisma);
-  registerOceanRoutes(app, prisma);
   registerAuthoringRoutes(app, prisma);
   registerProfileRoutes(app, prisma);
 

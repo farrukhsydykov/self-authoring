@@ -21,11 +21,11 @@ export function AuthLayout({ title, subtitle, children, footer }: AuthLayoutProp
             Understand yourself. Author your past, present, and future.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-white/40">
-            A structured program combining the Big Five OCEAN inventory with guided
+            A structured program combining personality assessment with guided
             self-authoring exercises — backed by psychological research.
           </p>
         </div>
-        <p className="text-xs text-white/30">300-item assessment · 4 authoring modules</p>
+        <p className="text-xs text-white/30">Present, Past & Future authoring</p>
       </div>
 
       <div className="flex flex-1 flex-col justify-center px-6 py-12 sm:px-12">
